@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0 auto;
+  background-color: #000000;
+}
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 3.2rem;
+  color: white;
+}
+p {
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  text-wrap: balance;
+}
+.heroSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 40px;
+}
+.firstPart {
+  display: grid;
+  gap: 20px;
+  min-height: 100vh;
+  place-content: center;
+}
+.secondPart {
+  display: grid;
+  place-items: center;
+}
+.primaryButton {
+  width: fit-content;
+  padding: 10px 15px;
+  background-color: #0648cc;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+  transition: 0.2s ease-in-out;
+  border: none;
+}
+.secondaryButton {
+  width: fit-content;
+  padding: 10px 15px;
+  border: 2px solid white;
+  background-color: black;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+  transition: 0.2s ease-in-out;
+}
+.primaryButton:hover {
+  background-color: #06338e;
+}
+.secondaryButton:hover {
+  background-color: white;
+  color: black;
+}
+.color {
+  color: #f2b457;
+}
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.made {
+  font-size: 17px;
+}
